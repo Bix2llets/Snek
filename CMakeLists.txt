@@ -9,7 +9,6 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 # Define source files (adjust these to match your project structure)
 file(GLOB_RECURSE PROJECT_SOURCES "src/*.cpp")
 file(GLOB_RECURSE PROJECT_HEADERS "include/*.h")
-
 # Add executable
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} ${PROJECT_HEADERS})
 
